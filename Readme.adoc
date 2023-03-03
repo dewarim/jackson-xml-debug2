@@ -12,3 +12,15 @@ include::src/test/java/com/dewarim/SerializerTest.java[]
 ----
 
 Source file: link:src/test/java/com/dewarim/SerializerTest.java[SerializerTest.java]
+
+Jackson version:
+
+[source,xml]
+----
+        <dependency>
+            <groupId>com.fasterxml.jackson.dataformat</groupId>
+            <artifactId>jackson-dataformat-xml</artifactId>
+            <version>2.14.2</version>
+            <scope>test</scope>
+        </dependency>
+----
