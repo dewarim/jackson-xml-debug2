@@ -1,0 +1,14 @@
+= jackson-xml-debug2
+
+I encountered a strange error message when using a custom serializer while using
+jackson-dataformat-xml
+
+  com.fasterxml.jackson.databind.JsonMappingException: Current context not Array but Object (through reference chain: com.dewarim.SerializerTest$CoreWrapper["core"])
+
+[source,java]
+.SerializerTest.java
+----
+include::src/test/java/com/dewarim/SerializerTest.java[]
+----
+
+Source file: link:src/test/java/com/dewarim/SerializerTest.java[SerializerTest.java]
